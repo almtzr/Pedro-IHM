@@ -1,0 +1,20 @@
+Pedro-IHM/
+├── src/                         # Code source de l'application IHM Python
+│   ├── main.py                  # Application principale de l'IHM
+│   ├── ui.py                    # Code pour l'interface utilisateur (Tkinter, PyQt)
+│   ├── flash_firmware.py        # Code pour flasher la carte via avrdude
+│   ├── helpers.py               # Fonctionnalités auxiliaires
+│   └── ...
+├── avrdude/                     # Dossier pour les exécutables avrdude
+│   ├── avrdude.exe              # Version Windows de avrdude
+│   ├── avrdude                  # Version Linux/macOS de avrdude
+│   └── avrdude.conf             # Configuration avrdude
+├── builds/                      # Dossier pour les versions compilées de l'IHM
+│   ├── Pedro-IHM.exe            # Version Windows (.exe)
+│   ├── Pedro-IHM.dmg            # Version macOS (.dmg)
+│   ├── Pedro-IHM.AppImage       # Version Linux (.AppImage)
+│   └── Pedro-IHM.deb            # Version Linux (.deb)
+├── requirements.txt             # Dépendances Python (ex. pyserial, tkinter)
+├── README.md                    # Documentation du projet et instructions
+├── LICENSE                      # Licence du projet (MIT ou autre)
+└── CONTRIBUTING.md              # Guide pour les contributeurs
